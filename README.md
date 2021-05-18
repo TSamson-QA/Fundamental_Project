@@ -40,4 +40,9 @@ For my project, I decided to create an app to be used with Paintable Miniture Fi
 which model(s) they wish to paint, output which paints are needed for selected models and mark which paints they have and which
 paints are needed.
 
-To achieve this, I will start with research into which models need which paints and begin to create tables based on this information.
+To achieve this, I will start with creating a Jira board and researching which models need which paints and begin to create tables based on this information.
+
+Jira Board:
+![initial Jira](https://github.com/TSamson-QA/Fundamental_Project/blob/main/ERD.PNG)
+
+
