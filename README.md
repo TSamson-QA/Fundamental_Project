@@ -51,4 +51,15 @@ Jira Board:
 
 ![initial Jira](https://github.com/TSamson-QA/Fundamental_Project/blob/main/ERD.PNG)
 
+Entity Relationship Diagram (ERD):
+
+
+
+
+
+
+![table design](https://github.com/TSamson-QA/Fundamental_Project/blob/main/jira_1PNG.PNG)
+
+I started by creating the list table, which is what i want the user to see when they have selected the required models. The list table has the List_ID as a primary key, as well as the foreign keys Model_ID and Paint-ID. Then the tables for Models and Paint were created, which both needed ID and names for each item. The Model table also contains which paint is needed for it.
+
 
