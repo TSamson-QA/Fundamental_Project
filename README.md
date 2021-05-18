@@ -61,6 +61,6 @@ Entity Relationship Diagram (ERD):
 
 ![table design](https://github.com/TSamson-QA/Fundamental_Project/blob/main/ERD.PNG)
 
-I started by creating the list table, which is what i want the user to see when they have selected the required models. The list table has the List_ID as a primary key, as well as the foreign keys Model_ID and Paint-ID. Then the tables for Models and Paint were created, which both needed ID and names for each item. The Model table also contains which paint is needed for it.
+The Model table contains the Model_ID as the primary key, as well as Paint_ID as a foreign key. Model_name is also contained in the model table. The paint table contains Paint_ID and Paint_name, used to identify paint colour.
 
 
