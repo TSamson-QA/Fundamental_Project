@@ -90,4 +90,6 @@ Creating an application, however, does pose risks. Here, I will describe some of
    Due to this being the first major project, there will always be the risk of experiencing technical difficulties during development.      This can be mitigated by remembering to use available sources or asking instructors when needed.
 5. Risk of Poor Management: Medium Risk (3) Medium Impact (3).
    The final product can be effected by self-management. If I am poorly managing my time and not following a set timetable to work at, the result of the final MVP could not meet expectations. To ensure a better quality of management, I am breaking down tasks completed, ones to be done, and the time frame in which to do it.
+6. Risk of Poor Version Control: High Risk (4) Low Probability (2).
+   To ensure that I am always working on version control, I have created a Dev branch within gitHub, which will store the version currently being worked on, with a functioning product being kept seperately within the Main branch of my repository. 
 
