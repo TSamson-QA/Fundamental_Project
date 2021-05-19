@@ -72,6 +72,7 @@ Creating an application, however, does pose risks. Here, I will describe some of
 
 
 ![risk_matrix](https://github.com/TSamson-QA/Fundamental_Project/blob/main/Risk_Assess_Matrix.PNG)
+![risk_table](https://github.com/TSamson-QA/Fundamental_Project/blob/main/Risk_Assess_table.PNG)
 
 1. Risk of Security Breaches: High Impact (4) Medium Probability (3).
    Creating an app nowadays will always come with security risks. The danger being the underestimation of the need of proper security. No application is guaranteed to be safe,
