@@ -64,6 +64,7 @@ Entity Relationship Diagram (ERD):
 The Model table contains the Model_ID as the primary key, as well as Paint_ID as a foreign key. Model_name is also contained in the model table. The paint table contains Paint_ID and Paint_name, used to identify paint colour.
 
 Risk Assessment:
+
 Creating an application, however, does pose risks. Here, I will describe some of the risks that may be encountered and how I mitigated the risks as much as possible, as well as a Matrix.
 
 
