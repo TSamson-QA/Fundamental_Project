@@ -75,8 +75,10 @@ Creating an application, however, does pose risks. Here, I will describe some of
 1. Risk of Security Breaches.
    Creating an app nowadays will always come with security risks. The danger being the underestimation of the need of proper security. No application is guaranteed to be safe,
    so I will use the following to decrease the risk of a security breach where possible:
-   - Use of Hidden Keys: The use of a hidden key will ensure that only the person using the application will be able to view the outcome of the application, by using encryption
+   - Use of Secret Keys: The use of a secret key will ensure that only the person using the application will be able to view the outcome of the application, by using encryption
      built in to Flask.
+   - Use of a secure SQL server: Using a secure server will minimise the risk of security breaches.
+   - Keeping security details secure: I will ensure that the Secret Key, as well as the details of the SQL server are not available to the public, this will mean that I cannot        upload such details to GitHub.
 2. Risk of creating an application that is not useful.
    I wanted to create an application that will be useful to the end users, as it is very important to recognise what will be useful. I took the time to think about something
    that end users will find useful and designed the application around that.
