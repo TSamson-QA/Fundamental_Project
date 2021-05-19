@@ -72,19 +72,22 @@ Creating an application, however, does pose risks. Here, I will describe some of
 
 ![risk_matrix](https://github.com/TSamson-QA/Fundamental_Project/blob/main/Risk_Assess_Matrix.PNG)
 
-1. Risk of Security Breaches.
+1. Risk of Security Breaches: High Impact (4) Medium Probability (3).
    Creating an app nowadays will always come with security risks. The danger being the underestimation of the need of proper security. No application is guaranteed to be safe,
    so I will use the following to decrease the risk of a security breach where possible:
    - Use of Secret Keys: The use of a secret key will ensure that only the person using the application will be able to view the outcome of the application, by using encryption
      built in to Flask.
    - Use of a secure SQL server: Using a secure server will minimise the risk of security breaches.
-   - Keeping security details secure: I will ensure that the Secret Key, as well as the details of the SQL server are not available to the public, this will mean that I cannot        upload such details to GitHub.
-2. Risk of creating an application that is not useful.
+   - Keeping security details secure: I will ensure that the Secret Key, as well as the details of the SQL server are not available to the public, this will mean that I cannot upload such details to GitHub.
+2. Risk of creating an application that is not useful: High Impact (4) Low Probability (2).
    I wanted to create an application that will be useful to the end users, as it is very important to recognise what will be useful. I took the time to think about something
    that end users will find useful and designed the application around that.
-3. Risk of Adding too many features.
-   Initially, I did want to create a bigger project than I needed to, which would take considerably more time and may even result in missing the set deadline for the project. 
+3. Risk of Adding too many features: Medium Impact (3) Low Probabilty (2).
+   Initially, I did want to create a bigger project than I needed to, which would take considerably more time and may even result in missing the set deadline for the project. I quickly realised that I needed to focus of the Minimum Viable Product.
    This was the result of planning to add too many features. Even though I did succumb to this way of thinking, I managed to scale the project down during the planning phase in
    order for it to be more achievable.
-4. 
+4. Risk of Technical Difficulties: Very High Impact (5) Low Probability (2).
+   Due to this being the first major project, there will always be the risk of experiencing technical difficulties during development.      This can be mitigated by remembering to use available sources or asking instructors when needed.
+5. Risk of Poor Management: Medium Risk (3) Medium Impact (3).
+   The final product can be effected by self-management. If I am poorly managing my time and not following a set timetable to work at, the result of the final MVP could not meet expectations. To ensure a better quality of management, I am breaking down tasks completed, ones to be done, and the time frame in which to do it.
 
