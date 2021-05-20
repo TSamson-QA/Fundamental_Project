@@ -1,5 +1,17 @@
 # Fundamental Project
 
+## Table of Contents
+
+ - [Brief](https://github.com/TSamson-QA/Fundamental_Project/blob/main/README.md#brief)
+ - [Scope](https://github.com/TSamson-QA/Fundamental_Project#scope)
+ - [My Approach](https://github.com/TSamson-QA/Fundamental_Project#my-approach)
+ - [Entity Relationship Diagram](https://github.com/TSamson-QA/Fundamental_Project#entity-relationship-diagram-erd)
+ - [Risk Assessment](https://github.com/TSamson-QA/Fundamental_Project#risk-assessment)
+
+
+
+
+
 ## Brief:
 
 The objective of this project is to create a CRUD application, using supporting tools, methodologies and technologies 
