@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Model and Paint Checklist</title>
+    </head>
+    <body>
+    <h1>Model and paint Checklist</h1>
+
+        <div class='form'>
+            <form method='POST' action=''>
+                {{ form.hidden_tag() }}
+                {{ form.model_select.label }} {{ form.model_select }}
+                {{ form.model }}
+                <br>
+                {{ form.select }}
+        
+            </form>
+        </div>
+
+        <h2>Selected Models</h2>
+
+    </body>
+</html>
