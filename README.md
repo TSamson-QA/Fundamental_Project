@@ -1,6 +1,6 @@
-#Fundamental Project
+# Fundamental Project
 
-##Brief:
+## Brief:
 
 The objective of this project is to create a CRUD application, using supporting tools, methodologies and technologies 
 learned in core modules so far, these include:
@@ -14,7 +14,7 @@ learned in core modules so far, these include:
 - Cloud Fundamentals
 - Databases
 
-##Scope:
+## Scope:
 
 The following are the requirements for the project:
  - A Trello board (or equivalent Kanban board tech) with full expansion
@@ -39,7 +39,7 @@ reports and evidence to support a TDD approach.
 Feature-Branch model which will subsequently be built through a CI
 server and deployed to a cloud-based virtual machine.
 
-##My Approach:
+## My Approach:
 
 For my project, I decided to create an app to be used with Paintable Miniture Figurines. The app will allow the user to select
 which model(s) they wish to paint, output which paints are needed for selected models and mark which paints they have and which
@@ -57,7 +57,7 @@ To achieve this, I will start with creating a Jira board and researching which m
 ![initial Jira](https://github.com/TSamson-QA/Fundamental_Project/blob/main/jira_1PNG.PNG)
 
 
-##Entity Relationship Diagram (ERD):
+## Entity Relationship Diagram (ERD):
 
 
 
@@ -68,7 +68,7 @@ To achieve this, I will start with creating a Jira board and researching which m
 
 The Model table contains the Model_ID as the primary key, as well as Paint_ID as a foreign key. Model_name is also contained in the model table. The paint table contains Paint_ID and Paint_name, used to identify paint colour.
 
-##Risk Assessment:
+## Risk Assessment:
 
 Creating an application, however, does pose risks. Here, I will describe some of the risks that may be encountered and how I mitigated the risks as much as possible, as well as a Matrix.
 
