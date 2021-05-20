@@ -66,7 +66,7 @@ To achieve this, I will start with creating a Jira board and researching which m
 
 
 
-![initial Jira](https://github.com/TSamson-QA/Fundamental_Project/blob/main/jira_1PNG.PNG)
+![initial Jira](https://github.com/TSamson-QA/Fundamental_Project/blob/main/images/jira_1PNG.PNG)
 
 
 ## Entity Relationship Diagram (ERD):
@@ -76,7 +76,7 @@ To achieve this, I will start with creating a Jira board and researching which m
 
 
 
-![table design](https://github.com/TSamson-QA/Fundamental_Project/blob/main/ERD.PNG)
+![table design](https://github.com/TSamson-QA/Fundamental_Project/blob/main/images/ERD.PNG)
 
 The Model table contains the Model_ID as the primary key, as well as Paint_ID as a foreign key. Model_name is also contained in the model table. The paint table contains Paint_ID and Paint_name, used to identify paint colour.
 
@@ -88,8 +88,8 @@ Creating an application, however, does pose risks. Here, I will describe some of
 
 
 
-![risk_matrix](https://github.com/TSamson-QA/Fundamental_Project/blob/main/Risk_Assess_Matrix.PNG)
-![risk_table](https://github.com/TSamson-QA/Fundamental_Project/blob/main/Risk_Assess_table.PNG)
+![risk_matrix](https://github.com/TSamson-QA/Fundamental_Project/blob/main/images/Risk_Assess_Matrix.PNG)
+![risk_table](https://github.com/TSamson-QA/Fundamental_Project/blob/main/images/Risk_Assess_table.PNG)
 
 1. Risk of Security Breaches: High Impact (4) Medium Probability (3).
    Creating an app nowadays will always come with security risks. The danger being the underestimation of the need of proper security. No application is guaranteed to be safe,
