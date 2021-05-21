@@ -39,6 +39,9 @@ class SelectModel(FlaskForm):
 
     select = SubmitField("Select")
 
+#class CreateEntry(FlaskForm):
+
+
 @app.route('/', methods=['POST', 'GET'])
 def index():
     form = SelectModel()
@@ -63,6 +66,24 @@ def add():
         return redirect(url_for('index'))
     return render_template('add.html', form=form)
 
+@app.route('/delete', methods=['POST', 'GET'])
+def delete():
+    form = SelectModel()
+    if form.validate_on_submit():
+        delete_model = Models.query.filter_by(id = form.model_select.data).first()
+        db.session.delete(delete_model)
+
+        delete_paint_id = delete_model.paint_id
+        delete_paint = Paints.query.filter_by(id = delete_paint_id).first()
+        db.session.delete(delete_paint)
+        db.session.commit()
+        return redirect(url_for('index'))
+    return render_template('delete.html', form=form)
+'''
+@app.route('/create', methods=['POST', 'GET'])
+def create():
+    form = 
+'''
 
 
 
