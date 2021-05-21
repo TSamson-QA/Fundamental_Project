@@ -62,7 +62,7 @@ paints are needed.
 
 To achieve this, I will start with creating a Jira board and researching which models need which paints and begin to create tables based on this information.
 
-##Jira Board:
+## Jira Board:
 
 
 
