@@ -126,3 +126,17 @@ I have updated the JIRA board as progress continues, adding more tasks as I go.
 
 
 ![jira2](https://github.com/TSamson-QA/Fundamental_Project/blob/main/images/jira_2.PNG)
+
+
+## Second Working Build:
+
+Following what was added to the JIRA board above, I implemented a delete function, which deletes a model entry and the paint associated with it. 
+
+
+
+![2nd_W_B_delete](https://github.com/TSamson-QA/Fundamental_Project/blob/main/images/2nd_W_B_delete.png)
+This delete function will also delete an entry if it has been added to the selected models list, allowing greater control for the user. I updated my JIRA board with my progress.
+
+
+
+![jira3](https://github.com/TSamson-QA/Fundamental_Project/blob/main/images/jira_3.PNG)
