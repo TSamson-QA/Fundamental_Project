@@ -144,3 +144,24 @@ This delete function will also delete an entry if it has been added to the selec
 
 
 ![jira3](https://github.com/TSamson-QA/Fundamental_Project/blob/main/images/jira_3.PNG)
+
+
+## Third Working Build:
+
+I was able to implement a new element in the application, which allows users to add entries to the database. 
+
+
+![3_W_B_1](https://github.com/TSamson-QA/Fundamental_Project/blob/main/images/3rd_W_B_1.PNG)
+
+If the user enters text in to the fields shown, they are added to the database and automatically added to the models list.
+
+![3_W_B_2](https://github.com/TSamson-QA/Fundamental_Project/blob/main/images/3rd_W_B_3.PNG)
+
+The user is able to manipulate this entry like they would be able to any other. The entry is also saved, and is available in the dynamic Select Field.
+
+![3_W_B_3](https://github.com/TSamson-QA/Fundamental_Project/blob/main/images/3rd_W_B_4.PNG)
+
+
+Now this is finally implemented, I have updated the Jira board as shown below, and plan to implement testing.
+
+![JIRA_4](https://github.com/TSamson-QA/Fundamental_Project/blob/main/images/jira_4.PNG)
