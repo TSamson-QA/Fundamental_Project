@@ -112,3 +112,7 @@ Creating an application, however, does pose risks. Here, I will describe some of
 6. Risk of Poor Version Control: High Risk (4) Low Probability (2).
    To ensure that I am always working on version control, I have created a Dev branch within gitHub, which will store the version currently being worked on, with a functioning product being kept seperately within the Main branch of my repository. 
 
+
+## First Working Build:
+
+
