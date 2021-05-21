@@ -119,4 +119,4 @@ Creating an application, however, does pose risks. Here, I will describe some of
 
 After creating a set list of objects in both tables, and setting relationships between them, I was able to let the user select which model they wish to use, from a drop down menu. The user is then re-directed to the home page, where the selected models are displayed, as well as the paints needed for the selected models.
 
-I am now planned to let the user remove selections, as well as add custom ones to the database.
+I am now planning to let the user remove selections, as well as add custom ones to the database.
