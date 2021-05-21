@@ -1,0 +1,11 @@
+{% extends 'layout.html' %}
+{% block body_content %}
+    <form action='' method='POST'>
+        {{ form.hidden_tag() }}
+        {{ form.model_select }} <br>
+        
+        {{ form.select }}
+
+        
+    </form>
+{% endblock body_content %}

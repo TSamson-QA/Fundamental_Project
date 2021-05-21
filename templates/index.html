@@ -1,22 +1,19 @@
-<html>
-    <head>
-        <title>Model and Paint Checklist</title>
-    </head>
-    <body>
-    <h1>Model and paint Checklist</h1>
-
-        <div class='form'>
-            <form method='POST' action=''>
-                {{ form.hidden_tag() }}
-                {{ form.model_select.label }} {{ form.model_select }}
-                {{ form.model }}
-                <br>
-                {{ form.select }}
-        
-            </form>
-        </div>
-
+{% extends 'layout.html' %}
+{% block body_content %}     
+    <div>
         <h2>Selected Models</h2>
+        {% for model in selected_models %}
 
-    </body>
-</html>
+            {{ model.model_name }}
+            <br>
+
+        {% endfor %}
+
+        <h2>Required Paints</h2>
+        {% for paint in added_paint %}
+            {{ paint.paint_name }}
+            <br>
+        {% endfor %}
+        
+     </div>
+{% endblock body_content %}

@@ -26,27 +26,43 @@ class Models(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     model_name = db.Column(db.String(50), nullable=False)
     paint_id = db.Column(db.Integer, db.ForeignKey('paints.id'), nullable=False)
-    added = db.Column(db.Boolean)
+    added = db.Column(db.Boolean, default=False)
 
 class SelectModel(FlaskForm):
-    model_select = SelectField("Please choose your model:",
-        choices=[
-            ("UM","Ultramarines"), ("Orks", "Orks"), ("BA","Blood Angels"), 
-            ("BT","Black Templars"), ("Necrons","Necrons"), ("Tau", "Tau"), 
-            ("GrK","Grey Knights"), ("ImF","Imperial Fists")
-        ],
-        validators = [DataRequired()]
-    )
+    
+    model_select = SelectField()
+
+    def __init__(self):
+        super(SelectModel, self).__init__()
+        self.model_select.choices = [(x.id, x.model_name) for x in Models.query.all()]
+        
+
     select = SubmitField("Select")
 
 @app.route('/', methods=['POST', 'GET'])
 def index():
     form = SelectModel()
-    model_select = form.model_select.data
-    select = form.select
-    addform = SelectModel()
-        
-    return render_template('index.html', form=form, model_select=model_select, select=select, addform=addform)
+    selected_models = Models.query.filter_by(added = True).all()
+    added_paint = Paints.query.filter_by(needed = True).all()
+    return render_template('index.html', form=form, selected_models=selected_models, added_paint=added_paint)
+
+@app.route('/add', methods=['POST', 'GET'])
+def add():
+    form = SelectModel()
+
+    
+    if form.validate_on_submit():
+        added_model = Models.query.filter_by(id = form.model_select.data).first()
+        added_model.added = True
+
+        added_paint_id = added_model.paint_id
+        added_paint = Paints.query.filter_by(id = added_paint_id).first()
+        added_paint.needed = True
+
+        db.session.commit()
+        return redirect(url_for('index'))
+    return render_template('add.html', form=form)
+
 
 
 
