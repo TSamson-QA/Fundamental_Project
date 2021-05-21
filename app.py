@@ -3,7 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 from os import getenv
 from flask import render_template, url_for, redirect, request
 from flask_wtf import FlaskForm
-from wtforms import StringField, BooleanField, SubmitField, SelectField
+from wtforms import StringField, SubmitField, SelectField
 from wtforms.validators import DataRequired, ValidationError
 
 app = Flask(__name__)
@@ -39,7 +39,11 @@ class SelectModel(FlaskForm):
 
     select = SubmitField("Select")
 
-#class CreateEntry(FlaskForm):
+class CreateEntry(FlaskForm):
+    new_model = StringField('Model Name')
+    new_paint  = StringField('Paint Name')
+    submit = SubmitField('Create Entry')
+
 
 
 @app.route('/', methods=['POST', 'GET'])
@@ -79,11 +83,31 @@ def delete():
         db.session.commit()
         return redirect(url_for('index'))
     return render_template('delete.html', form=form)
-'''
+
 @app.route('/create', methods=['POST', 'GET'])
-def create():
-    form = 
-'''
+def newentry():
+    form = CreateEntry()
+    
+    if form.validate_on_submit():
+                      
+
+        paint = Paints(
+            paint_name = form.new_paint.data,
+            needed = True
+        )
+        db.session.add(paint)
+        db.session.commit()
+
+        model = Models(
+            model_name = form.new_model.data,
+            added = True,
+            paint_id = paint.id
+            
+            )
+        db.session.add(model)
+        db.session.commit()
+        return redirect(url_for('index'))
+    return render_template('new_entry.html', form=form)
 
 
 
