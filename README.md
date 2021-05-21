@@ -138,6 +138,7 @@ Following what was added to the JIRA board above, I implemented a delete functio
 
 
 ![2nd_W_B_delete](https://github.com/TSamson-QA/Fundamental_Project/blob/main/images/2nd_W_B_delete.png)
+
 This delete function will also delete an entry if it has been added to the selected models list, allowing greater control for the user. I updated my JIRA board with my progress.
 
 
