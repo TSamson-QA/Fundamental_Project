@@ -11,6 +11,7 @@
  - [Second Working Build](https://github.com/TSamson-QA/Fundamental_Project/blob/main/README.md#second-working-build)
  - [Third Working Build](https://github.com/TSamson-QA/Fundamental_Project/blob/main/README.md#third-working-build)
  - [Testing](https://github.com/TSamson-QA/Fundamental_Project#testing)
+ - [Version Control](https://github.com/TSamson-QA/Fundamental_Project/blob/main/README.md#version-control)
  - 
 
 
@@ -179,3 +180,19 @@ When the third working build was fully implemented, I started working on testing
 
 Through my project, I was able to maintain version control by only changing files directly on the dev branch. When features were fully working and implemented successfully, I merged the dev branch on to the Main branch. 
 
+
+## Project Summary and Self Reflection:
+
+In this section, I will do a self-evaluation and reflect on what could have been done more effectively and what I would add in the future.
+
+### Self-Evaluation
+
+I found that during my project, I initally did struggle with implementation of the dynamic drop down menu. I was able to get it to work perfectly fine, but did not know how to call values that had been selected. With help from my instructor, though, I was finally able to get this to work. Looking back on this, I should have asked sooner, rather than spend time attempting to fix it myself, this would have saved time and allowed me to better implement other features.
+
+### Future Implementations
+
+Upon looking at my completed project, I thought on what i would do differently, and what else i could implement of I were to continue the application in the future.
+If i had more time to work on my project, I would have made a Many to Many relationship between the Models and the Paints tables. This would have allowed the user to have one model be associated with several different paints, more like what would actually be needed for painting a model. 
+I would also like to implement Images into the application, displaying the model kit as well as the paints, and a finished product, when fully painted.
+
+Overall, i feel the project went well and met the MVP, as was originally planned, I am pleased with this outcome, but would have liked to make some minor changes.
