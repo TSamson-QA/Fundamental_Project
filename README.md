@@ -166,3 +166,10 @@ The user is able to manipulate this entry like they would be able to any other. 
 Now this is finally implemented, I have updated the Jira board as shown below, and plan to implement testing.
 
 ![JIRA_4](https://github.com/TSamson-QA/Fundamental_Project/blob/main/images/jira_4.PNG)
+
+## Testing:
+
+When the third working build was fully implemented, I started working on testing. I was able to successfully test with an 85% coverage. 
+
+![Testing](https://github.com/TSamson-QA/Fundamental_Project/blob/main/images/testing.PNG)
+
