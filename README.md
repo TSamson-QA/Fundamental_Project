@@ -10,9 +10,8 @@
  - [First Working Build](https://github.com/TSamson-QA/Fundamental_Project/blob/main/README.md#first-working-build)
  - [Second Working Build](https://github.com/TSamson-QA/Fundamental_Project/blob/main/README.md#second-working-build)
  - [Third Working Build](https://github.com/TSamson-QA/Fundamental_Project/blob/main/README.md#third-working-build)
-
-
-
+ - [Testing](https://github.com/TSamson-QA/Fundamental_Project#testing)
+ - 
 
 
 ## Brief:
@@ -172,4 +171,11 @@ Now this is finally implemented, I have updated the Jira board as shown below, a
 When the third working build was fully implemented, I started working on testing. I was able to successfully test with an 85% coverage. 
 
 ![Testing](https://github.com/TSamson-QA/Fundamental_Project/blob/main/images/testing.PNG)
+
+
+## Version Control
+
+![Version Control graph](https://github.com/TSamson-QA/Fundamental_Project/blob/main/images/version-control.PNG)
+
+Through my project, I was able to maintain version control by only changing files directly on the dev branch. When features were fully working and implemented successfully, I merged the dev branch on to the Main branch. 
 
