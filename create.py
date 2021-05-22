@@ -2,7 +2,7 @@ from app import db, Models, Paints
 
 db.drop_all()
 db.create_all()
-
+'''
 MacBlue = Paints(paint_name = "Macragge Blue", needed=0)
 db.session.add(MacBlue)
 
@@ -47,4 +47,4 @@ ImF = Models(model_name="Imperial Fists", Paints = AvSunset)
 db.session.add(ImF)
 
 db.session.commit()
-
+'''
