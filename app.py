@@ -8,10 +8,8 @@ from wtforms.validators import DataRequired, ValidationError
 
 app = Flask(__name__)
 
-app.config['SQLALCHEMY_DATABASE_URI'] = "mysql+pymysql://root:root@34.89.38.52:3306/model_database"
-#getenv('DATABASE_URI')
-app.config['SECRET_KEY'] = "bncubcobcp"
-#getenv("SECRET_KEY")
+app.config['SQLALCHEMY_DATABASE_URI'] = getenv('DATABASE_URI')
+app.config['SECRET_KEY'] = getenv("SECRET_KEY")
 
 db = SQLAlchemy(app)
 

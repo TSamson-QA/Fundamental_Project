@@ -1,5 +1,7 @@
 from flask_testing import TestCase
 from flask import url_for
+from os import getenv
+
 
 from app import Paints, app, newentry
 from app import db, Models
@@ -8,10 +10,10 @@ from app import db, Models
 
 class TestBase(TestCase):
     def create_app(self):
-        app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///"
-        app.config["SECRET_KEY"] = "fwbiwfn"
+        app.config['SQLALCHEMY_DATABASE_URI'] = getenv('DATABASE_URI')
+        app.config['SECRET_KEY'] = getenv("SECRET_KEY")
         app.config["WTF_CSRF_ENABLED"] = False
-        app.config["DEBUG"] = True
+        app.config["DEBUG"] = False
         return app
     
     def setUp(self):
