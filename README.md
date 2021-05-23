@@ -180,6 +180,13 @@ When the third working build was fully implemented, I started working on testing
 
 Through my project, I was able to maintain version control by only changing files directly on the dev branch. When features were fully working and implemented successfully, I merged the dev branch on to the Main branch. 
 
+## Application Security
+
+![Getenv Security](https://github.com/TSamson-QA/Fundamental_Project/blob/main/images/getenv_security.PNG)
+
+In order to make the application more secure, I removed the server address and the secret key from the files. This will prevent information from being displayed publicly on GitHub.
+To access the application, I need to set environment variables when hosting on a virtual machine, and accessing through Gunicorn. 
+
 
 ## Project Summary and Self Reflection:
 
